@@ -9,6 +9,7 @@ const Questions = () => {
       <SectionHeader
         headerTitle="Frequently asked questions
 "
+        style="text-blackFontH"
       />
 
       {/* Accordion */}

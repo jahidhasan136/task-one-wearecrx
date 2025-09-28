@@ -35,9 +35,12 @@ const Accordion = () => {
   };
 
   return (
-    <div className="mt-[120px] grid gap-5">
+    <div className="xs:mt-8 md:mt-10 lg:mt-[120px] grid xs:gap-4 md:gap-6 lg:gap-8">
       {faqData.map((item, index) => (
-        <div key={index} className="grid gap-5 border-b pb-8 border-border">
+        <div
+          key={index}
+          className="grid gap-5 border-b xs:pb-4 md:pb-6 lg:pb-8 border-border"
+        >
           {/* Questions */}
           <div
             onClick={() => handleToggle(index)}
