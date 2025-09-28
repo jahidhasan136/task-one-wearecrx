@@ -1,10 +1,11 @@
 import React from "react";
+import Questions from "../components/questions/Questions";
 
 const page = () => {
   return (
-    <div>
-      <h1 className="xs:hidden md:flex">This is common layout</h1>
-    </div>
+    <>
+      <Questions />
+    </>
   );
 };
 
