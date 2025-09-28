@@ -1,6 +1,7 @@
 import React from "react";
 import Questions from "../components/questions/Questions";
 import GetInTouch from "../components/getInTouch/GetInTouch";
+import Footer from "../components/footer/Footer";
 
 const page = () => {
   return (
@@ -10,6 +11,9 @@ const page = () => {
       </div>
       <div>
         <GetInTouch />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
