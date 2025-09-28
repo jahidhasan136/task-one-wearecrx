@@ -43,7 +43,7 @@ const Accordion = () => {
             onClick={() => handleToggle(index)}
             className="flex items-center justify-between cursor-pointer"
           >
-            <h2 className="font-semibold text-[28px] leading-10 tracking-[-0.48px] text-blackFontH">
+            <h2 className="font-semibold xs:text-base md:text-[20px] lg:text-[28px] xs:leading-6 md:leading-7 lg:leading-10 tracking-[-0.48px] text-blackFontH">
               {item.question}
             </h2>
             <IoIosArrowDown
